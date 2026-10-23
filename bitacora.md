@@ -67,6 +67,11 @@ qué detalles dejaste por fuera (abstracción): En un inicio, se omite la fecha,
 
 | Entrada | Proceso | Sálida  |
 | --- | --- | --- |
-|    1    |1*10000  |Hola, David: tu alquiler de 1 horas cuesta $10000 |
-| --- | --- | --- |
-|    3    |3*10000
+|nombre= "David"  horas =1|1*10000  |Hola, David: tu alquiler de 1 horas cuesta $10000 |
+|nombre= "Luis" horas =3|3*10000|Hola, Luis: tu alquiler de 3 horas cuesta $30000|
+|nombre= "Alex" horas =8|8*10000|Hola, Alex: tu alquiler de 8 horas cuesta $8000|
+
+## qué pasa al ingresar horas = 0 u horas = -5.
+
+Se realiza la operación, pero el resultado será un número negativo, y al imprimir, se imprime de la forma: "Hola, David: tu alquiler de -5 horas cuesta $-50000", ya que el código no distingue de números positivos, negativos y cero, el algoritmo se ejecuta con normalidad, pero lleva a esta respuesta. 
+
