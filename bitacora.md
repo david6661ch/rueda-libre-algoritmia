@@ -67,9 +67,9 @@ qué detalles dejaste por fuera (abstracción): En un inicio, se omite la fecha,
 
 | Entrada | Proceso | Sálida  |
 | --- | --- | --- |
-|nombre= "David"  horas =1|1*10000  |Hola, David: tu alquiler de 1 horas cuesta $10000 |
-|nombre= "Luis" horas =3|3*10000|Hola, Luis: tu alquiler de 3 horas cuesta $30000|
-|nombre= "Alex" horas =8|8*10000|Hola, Alex: tu alquiler de 8 horas cuesta $8000|
+|nombre= "David"  horas =1|total_a_pagar =1*10000  |Hola, David: tu alquiler de 1 horas cuesta $10000 |
+|nombre= "Luis" horas =3|total_a_pagar =3*10000|Hola, Luis: tu alquiler de 3 horas cuesta $30000|
+|nombre= "Alex" horas =8|total_a_pagar =8*10000|Hola, Alex: tu alquiler de 8 horas cuesta $8000|
 
 ## qué pasa al ingresar horas = 0 u horas = -5.
 
